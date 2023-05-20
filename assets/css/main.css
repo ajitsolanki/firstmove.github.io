@@ -2,12 +2,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Passion+One:400");
 
-/*
-	Full Motion by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -166,7 +160,7 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 2em 0 0 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1336,7 +1330,7 @@
 /* Main */
 
 	#main {
-		padding: 4em 0 2em 0;
+		padding: 2em 0 2em 0;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -1364,7 +1358,7 @@
 /* Footer */
 
 	#footer {
-		padding: 4em 0 2em 0;
+		padding: 2em 0 2em 0;
 		background-color: #1b1b1f;
 		text-align: center;
 	}
@@ -1404,4 +1398,56 @@
 				padding: 3em 0 1em 0;
 			}
 
+		}
+
+		* {
+			-webkit-transition-property: all;
+			-webkit-transition-duration: .2s;
+		  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+			-moz-transition-property: all;
+		  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+		}
+		
+		body{
+		  background:#1b1b1f;
+		  padding:75px;
+		  text-align:center;
+		  font-family: 'Oswald', sans-serif;
+		}
+		
+		h1{
+		  color:#c0c0c0;
+		  font-weight:100;
+		}
+		
+		.btn{
+		  color:#dacfcf;
+		  background:rgba(0, 0, 0, 0.5);
+		  padding:10px 20px;
+		  /* font-size:12px; */
+		  text-decoration:none;
+		  letter-spacing:2px;
+		  /* text-transform:uppercase; */
+		}
+		
+		.btn:hover{
+		  border:none;
+		  background:rgba(0, 0, 0, 0.4);
+		  background:#fff;
+		  padding:20px 20px;
+		  color:#1b1b1b;
+		}
+		
+		.footer{
+		  font-size:8px;
+		  color:#fff;
+		  clear:both;
+		  display:block;
+		  letter-spacing:5px;
+		  border:1px solid #fff;
+		  padding:5px;
+		  text-decoration:none;
+		  width:210px;
+		  margin:auto;
+		  margin-top:400px;
 		}
