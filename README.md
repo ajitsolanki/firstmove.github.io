@@ -1,2 +1,2 @@
-First Move - A move towatds dream career
-Coming Soon !
+First Move - Placing right talent at right place
+www.firstmove.in
